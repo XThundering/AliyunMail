@@ -39,7 +39,7 @@ class HttpHelper
             throw new Exception(curl_strerror($errno));
         }
         curl_close($ch);
-        return $httpResponse->getBody();
+        return $httpResponse->getStatus();
     }
 
     static function getPostHttpBody($postFildes)
