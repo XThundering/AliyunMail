@@ -1,0 +1,21 @@
+{
+    "name": "xthundering/aliyunmail",
+    "description": "An aliyun mail send package",
+    "type": "library",
+    "require": {
+        "php": ">= 5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "XThundering",
+            "email": "XThundering@vip.qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-4": {
+            "XThundering\\AliyunMail\\": "src"
+        }
+    }
+}
